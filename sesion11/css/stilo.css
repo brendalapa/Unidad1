@@ -1,0 +1,25 @@
+body{font-family: sans-serif; background-color: #C8E8D5 ;}
+.contenedor{background-color: #E9F7F5;
+margin: 100px auto 0 auto;
+width: 500px; box-shadow: 5px 5px 5px #C8E8D5;
+height: 600px;
+padding: 20px;
+border-radius: 5px;}
+.Nombre-Pregunta, .resultado-título{text-align: center; font-size: 1.5rem;}
+.preguntas-contenido{padding:15px;}
+.enunciado-pregunta{text-align: justify; height: 150px;}
+.preguntas-opciones{height:200px; height: 150px;}
+.preguntas-opciones button{display: block;margin:5px auto; font-size: 1rem; width: 300px; padding-top:5px; padding-bottom:5px; border-radius: 0px}
+.preguntas-opciones button:hover{background-color: rgb(75, 133, 105);}
+.avance{vertical-align: bottom;}
+.card{height:450px}
+#barra-progreso{width: 90%;
+display:block;
+margin-left:auto;
+margin-right: auto;}
+#estilo-excelente{color:rgb(34, 161, 18); font-weight: 600;}
+#estilo-bueno{color:rgb(18, 161, 149); font-weight: 600;}
+#estilo-aceptable{color:rgb(18, 80, 161); font-weight: 600;}
+#estilo-regular{color:rgb(214, 162, 19); font-weight: 600;}
+#estilo-malo{color:rgb(161, 39, 18); font-weight: 600;}
+.resultado-obtenido{padding-top: 50px;}

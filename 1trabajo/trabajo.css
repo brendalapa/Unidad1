@@ -1,0 +1,20 @@
+#encabezado{
+    height: px;
+    width: px;
+    background-color: rgb(160, 160, 201);
+    }
+     
+#cuerpo {
+    height: 540px;
+    width: 1340x;
+
+     
+#contenedor {
+    width: 968px;
+    }
+     
+#footer {
+    height: 50px;
+    width: 968px;
+    background-color: rgb(160, 160, 201);
+    }

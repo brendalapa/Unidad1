@@ -1,0 +1,15 @@
+[
+    {
+        "categoria":"Trivia",
+        "pregunta":"¿Cuántos capítulos tiene Pasión de Gavilanes?",
+        "respuesta":"188 Capítulos",
+        "incorrecta1":"150 Capítulos",
+        "incorrecta2":"100 Capítulos",
+        "incorrecta3":"200 Capítulos",
+        "imagen": "https://trome.pe/resizer/ggUqHvCIoy0VeY_hCTjcBzAux1E=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/5QLIMMWSQRCNPE3TJ55QAGY54Y.jpg",
+        "object-fit": "cover",
+    }
+    {
+
+    }
+]

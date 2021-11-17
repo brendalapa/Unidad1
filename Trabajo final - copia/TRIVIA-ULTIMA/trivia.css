@@ -1,0 +1,50 @@
+body{
+    background-image:url("https://thumbs.gfycat.com/ThickTiredHuman-size_restricted.gif");
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+#contenedor{
+    width:60%;
+    background: #b1b06a;
+    margin:20px auto;
+    overflow:auto;
+    padding:25px;
+}
+header{
+    text-align: center;
+    border-bottom:#fff dashed 1px;
+}
+header h1{
+    margin:0px;
+    padding:0px;
+    color: rgb(65, 26, 14);
+}
+header p{
+    padding:0;
+    margin-top: 5px;
+    color:#000000;
+}
+h3{
+    color:#000000;
+}
+section{
+    min-height: 410px;
+    text-align: center;
+}
+input[type='submit']{
+    background:#50200b;
+    border:0;
+    color:#fff;
+    padding:10px 15px;
+    cursor: pointer;
+}
+#resultado h3{
+    background:#aa7141;
+    padding:10px;
+    margin:10px 0;
+}
+#resultado span{
+    color:#000;
+    font-weight: hold;
+}

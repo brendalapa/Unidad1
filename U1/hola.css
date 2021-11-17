@@ -1,0 +1,7 @@
+body{font-family: sans-serif;}
+.biografia{
+    width: 70%;display: inline-block; font-size: 14px; line-height: 1 1.6;
+}
+.resumen{display: inline-block; vertical-align: top;}
+.tabla-resumen{border: 1px solid black;background-color:rgb(221, 221, 221);}
+.tabla-resumen thead th{background-color:lightblue;}

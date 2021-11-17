@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="UTF-8">
+
+<title>Encuesta</title>
+<script src="js/grupo.js"></script>
+    </head>
+<body>
+    <div class="main">
+        <form>
+        <div class="campo">
+            <label for="Nombres">Nombres:</label>
+            <input type="text" name="Nombres" id="Nombres">
+        </div>
+        <div class="campo">
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" name="Apellidos" id="Apellidos">
+        </div>
+        <div class="campo">
+            <label for="Email">Correo Electrónico:</label>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <div class="campo">
+            <label for="FechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="FechaNacimiento" id="FechaNacimiento">
+        </div>
+        <div class="campo">
+            <p>Género:</p>
+            <span class="tab"></span><input type="radio" id=f name=género value="f">
+            <label for="f">Femenino</label>
+            <input type="radio" id=m name=género value="m">
+            <label for="m">Masculino</label>
+        </div>
+        <div class="campo">
+            <label for="Estatura">Estatura:</label>
+            <input type="number" name="Estatura" id="Estatura">cm
+        </div>
+        <div class="campo">
+            <label for="Peso">Peso:</label>
+            <input class="w=50" type= "number" name="Peso" id="Peso" step="any" > kg
+        </div>
+        <div class="campo">
+            <label for="Deporte">Realizo deporte regularmente:</label>
+            <input type="checkbox" name="Deporte" id="Deporte">
+        </div>
+        <div class="campo">
+        <button type="button" id="Enviar" onclick="dato()">Enviar</button>
+        </div>
+    </form>
+</div>
+<script src="js/grupo.js"></script>
+</body>
+</html>
+

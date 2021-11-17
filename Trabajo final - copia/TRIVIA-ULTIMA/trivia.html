@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SERIETENA</title>
+    <link rel="stylesheet" href="trivia.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>SERIETENA</h1>
+            <p>¿Qué tanto sabes sobre películas y series?</p>
+            <p><h3>¡PONTE A PRUEBA!</h3></p>
+        </header>
+        <section>
+        <div id="resultado"></div>
+        <form name="SERIETENA" onsubmit="return verificarRespuestas()">
+        
+            <h3>¿Cuántos capítulos tiene <em>Pasión de Gavilanes</em>?</h3>
+            <input type="radio" name="p1" value="a">a. 100 Capítulos<br/>
+            <input type="radio" name="p1" value="b">b. 150 Capítulos<br/>
+            <input type="radio" name="p1" value="c">c. 188 Capítulos<br/>
+            <input type="radio" name="p1" value="d">d. 200 Capítulos<br/>
+            <p><img width="240" height="240" src="https://trome.pe/resizer/ggUqHvCIoy0VeY_hCTjcBzAux1E=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/5QLIMMWSQRCNPE3TJ55QAGY54Y.jpg"></p>
+
+            <h3>¿Cuántas sagas tiene <em>El conjuro</em>?</h3>
+            <input type="radio" name="p2" value="a">a. 1 Saga<br/>
+            <input type="radio" name="p2" value="b">b. 2 Sagas<br/>
+            <input type="radio" name="p2" value="c">c. 3 Sagas<br/>
+            <input type="radio" name="p2" value="d">d. 4 Sagas<br/>
+            <p><img width="240" height="240" src="https://i.pinimg.com/originals/7c/35/df/7c35dfe2a932a5dd558ade30986a28ff.jpg"></p>
+
+            <h3>¿Cuántas temporadas tiene <em>The Walking Dead</em>?</h3>
+            <input type="radio" name="p3" value="a">a. 2 Temporadas<br/>
+            <input type="radio" name="p3" value="b">b. 5 Temporadas<br/>
+            <input type="radio" name="p3" value="c">c. 11 Temporadas<br/>
+            <input type="radio" name="p3" value="d">d. 17 Temporadas<br/>
+            <p><img width="240" height="240" src="https://www.latercera.com/resizer/fCTfH_Tu7qMKLW5B-QdgiU6R_WY=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/TWXTDENQTJCNZJGMTEB6PGLZA4.jpg"></p>
+
+            <h3>¿Cuántos capítulos tiene <em>El Juego del Calamar</em>?</h3>
+            <input type="radio" name="p4" value="a">a. 3 Capítulos<br/>
+            <input type="radio" name="p4" value="b">b. 7 Capítulos<br/>
+            <input type="radio" name="p4" value="c">c. 9 Capítulos<br/>
+            <input type="radio" name="p4" value="d">d. 13 Capítulos<br/>
+            <p><img width="240" height="240" src="https://es.web.img3.acsta.net/pictures/21/09/29/12/02/1288399.jpg"></p>
+
+            <h3>¿Qué género es la película <em>De todos los chicos que me enamoré</em>?</h3>
+            <input type="radio" name="p5" value="a">a. Romántica<br/>
+            <input type="radio" name="p5" value="b">b. Comedia<br/>
+            <input type="radio" name="p5" value="c">c. Terror<br/>
+            <input type="radio" name="p5" value="d">d. Acción<br/>
+            <p><img width="240" height="240" src="https://www.ecartelera.com/carteles/14600/14660/001_m.jpg"></p>
+
+
+            <h3>¿Qué drama es la serie <em>Love Alarm</em>?</h3>
+            <input type="radio" name="p6" value="a">a. Romántica<br/>
+            <input type="radio" name="p6" value="b">b. Acción<br/>
+            <input type="radio" name="p6" value="c">c. Suspenso<br/>
+            <input type="radio" name="p6" value="d">d. Drama<br/>
+            <p><img width="240" height="240" src=https://peru21.pe/resizer/TJK6BNafvpYtyjqGmtMAJMsYlG8=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/IAO3SPY5Z5G77NWTO2JW2VH2DY.jpg></p>
+
+            <h3>¿En qué año fue creada la película <em>El Aro</em>?</h3>
+            <input type="radio" name="p7" value="a">a. 1995<br/>
+            <input type="radio" name="p7" value="b">b. 2002<br/>
+            <input type="radio" name="p7" value="c">c. 2006<br/>
+            <input type="radio" name="p7" value="d">d. 2013<br/>
+            <p><img width="240" height="240" src="https://st.booknet.com/uploads/covers/220/1598490732_24.jpg"></p>
+
+
+            <h3>¿Cuántas temporadas tiene la serie <em>Naruto</em>?</h3>
+            <input type="radio" name="p8" value="a">a. 5 Temporadas<br/>
+            <input type="radio" name="p8" value="b">b. 8 Temporadas<br/>
+            <input type="radio" name="p8" value="c">c. 9 Temporadas<br/>
+            <input type="radio" name="p8" value="d">d. 14 Temporadas<br/>
+            <p><img width="240" height="240" src="https://i.pinimg.com/originals/89/f1/d2/89f1d2069fa542c70bf68c6b3430e337.jpg"></p>
+
+
+            <h3>¿Qué género crees que es la nueva serie de <em>Chucky</em>?</h3>
+            <input type="radio" name="p9" value="a">a. Comedia<br/>
+            <input type="radio" name="p9" value="b">b. Terror<br/>
+            <input type="radio" name="p9" value="c">c. Drama<br/>
+            <input type="radio" name="p9" value="d">d. Musical<br/>
+            <p><img width="240" height="240" src="https://www.malatintamagazine.com/wp-content/uploads/2018/07/chucky-portada-900x450.jpg"></p>
+
+            <h3>¿Cuántas temporadas tiene la serie <em>You</em>?</h3>
+            <input type="radio" name="p10" value="a">a. 3 Temporadas<br/>
+            <input type="radio" name="p10" value="b">b. 6 Temporadas<br/>
+            <input type="radio" name="p10" value="c">c. 9 Temporadas<br/>
+            <input type="radio" name="p10" value="d">d. 12 Temporadas<br/>
+            <p><img width="240" height="240" src=https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/01/MV5BMjM0MDA2NDEzNF5BMl5BanBnXkFtZTgwODYzNjg4NTM%40._V1_SY1000_CR0%2C0%2C666%2C1000_AL_.jpg?itok=slnUh7pY"></p>
+
+
+            <h3>¿Quién es la protagonista de la pelicula<em>Aves de presa</em>?</h3>
+            <input type="radio" name="p11" value="a">a. Rosie Perez<br/>
+            <input type="radio" name="p11" value="b">b. Cassandra Cain<br/>
+            <input type="radio" name="p11" value="c">c. Margot Robbie<br/>
+            <input type="radio" name="p11" value="d">d. Mary Elizabeth Winstead<br/>
+            <p><img width="240" height="240" src="https://i.blogs.es/7f6821/birds-of-prey-imax-poster-art/1366_2000.jpeg"></p>
+
+
+            <h3>¿Cuántas películas contiene la saga <em>Los Vengadores</em>?</h3>
+            <input type="radio" name="p12" value="a">a. 1 Película<br/>
+            <input type="radio" name="p12" value="b">b. 2 Películas<br/>
+            <input type="radio" name="p12" value="c">c. 4 Películas<br/>
+            <input type="radio" name="p12" value="d">d. 6 Películas<br/>
+            <p><img width="240" height="240" src="https://i.ytimg.com/vi/OWqgNCwwnb0/maxresdefault.jpg"></p>
+
+            <h3>La película <em>Buscando a Dory</em>, ¿a qué género pertenece?</h3>
+            <input type="radio" name="p13" value="a">a. Infantil<br/>
+            <input type="radio" name="p13" value="b">b. Drama<br/>
+            <input type="radio" name="p13" value="c">c. Aventura<br/>
+            <input type="radio" name="p13" value="d">d. Animatoria<br/>
+            <p><img width="240" height="240" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f376d089a91798287747dc6c76644f7b76e9738ce177777db52c1f4167582b23._RI_V_TTW_.jpg"></p>
+
+            <h3>Indica que tal te pareció la serie <em>Elite</em></h3>
+            <input type="radio" name="p14" value="a">a. Mala<br/>
+            <input type="radio" name="p14" value="b">b. Aburrida<br/>
+            <input type="radio" name="p14" value="c">c. Regular<br/>
+            <input type="radio" name="p14" value="d">d. Buena<br/>
+            <p><img width="240" height="240" src="https://www.covercaratulas.com/ode/mini/carteles-34147.jpg"></p>
+
+
+       <p><input type="submit" value="Enviar"></p>
+        </form>
+        </section>
+    </div>
+    <script src="trivia.js"></script> 
+</body>
+</html>

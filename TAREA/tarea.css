@@ -1,0 +1,9 @@
+h1{
+    border-left: 5px dotted black;
+    border-top:5px dotted black;
+    border-bottom: 5px dashed red; 
+    border-right: 5px solid red;
+}
+p{
+    display: none; border:1px solid green;
+}
